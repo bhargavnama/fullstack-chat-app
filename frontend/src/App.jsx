@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import  HomePage  from "./pages/HomePage.jsx";
-import  LogInPage  from "./pages/LoginPage.jsx";
-import  ProfilePage  from "./pages/ProfilePage.jsx";
-import  SignUpPage  from "./pages/SignUpPage.jsx";
-import  SettingsPage  from "./pages/SettingsPage.jsx";
-import  NavBar  from "./components/NavBar.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import LogInPage from "./pages/LogInPage.jsx"; // Corrected import statement
+import ProfilePage from "./pages/ProfilePage.jsx";
+import SignUpPage from "./pages/SignUpPage.jsx";
+import SettingsPage from "./pages/SettingsPage.jsx";
+import NavBar from "./components/NavBar.jsx";
 import { useAuthStore } from "./store/useAuthStore.js";
 import { useThemeStore } from "./store/useThemeStore.js";
 import { useEffect } from "react";
